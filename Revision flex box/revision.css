@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* display: flex; */
+
+}
+
+#content {
+    background-color: antiquewhite;
+    /* border: 2px dotted rgb(177, 14, 120);
+    border-radius: 5px; */
+    width: 100px;
+    height: 50px;
+    display: flex;
+    /* gap: 10px; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid blue;
+    /* width: 100px;
+    height: 90px; */
+    /* overflow: hidden; */
+
+
+
+
+
+
+
+
+}
+
+.flex-items {
+    background-color: rgb(180, 110, 245);
+    border: 1px solid black;
+    /* width: 100px; */
+    height: 100px;
+    /* flex-grow: 1;  */
+    /* flex-shrink:1;
+    flex-basis: 200px; */
+
+    /* flex: 1 1 px; */
+    /* flex: 1; */
+}
+
+.item1 {
+    border: 1px solid blue;
+    background-color: rgb(180, 110, 245);
+    border: 1px solid black;
+    /* width: 100px; */
+    height: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+
+    flex: 1px;
+    /* flex: 1; */
+}
+
+.item2 {
+    /* border: 1px solid blue;
+    width: 100px;
+    height: 90px;
+    flex: 1; */
+    background-color: rgb(180, 110, 245);
+    border: 1px solid black;
+    /* width: 100px; */
+    height: 100px;
+    /* flex-grow: 1;  */
+    /* flex-shrink: 1; */
+    flex-basis: 200px;
+    /* flex: 1px; */
+    /* flex: 1; */
+}
+
+.item3 {
+    background-color: rgb(180, 110, 245);
+    border: 1px solid black;
+    /* width: 100px; */
+    height: 100px;
+    /* flex-grow: 1;  */
+    /* flex-shrink:1;
+    flex-basis: 200px; */
+
+    flex: 1px;
+    /* flex: 1; */
+}

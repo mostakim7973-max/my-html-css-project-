@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#wrapper{
+     /* width: 5opx;
+    height: 500; */
+    background-color: red;
+    width: 50%;
+
+    
+}
+
+span{
+    display: inline-block;
+ width: 40%;
+ height: 40%; 
+background-color: aqua;
+ width: 5opx;
+    height: 500;
+}
+
+h1{
+    font-size: 40px;
+}

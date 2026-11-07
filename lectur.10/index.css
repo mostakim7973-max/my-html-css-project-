@@ -1,0 +1,58 @@
+/* #aditya { */ */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#lakshya {
+    font-size: 100px;
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 10px red;
+}
+
+p {
+    font-weight: 20px;
+}
+
+#anu {
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+    /* line-height: 1; */
+    letter-spacing: -3px;
+    word-spacing: 4px;
+}
+
+
+#vikash {
+    text-align: center;
+    border: 1px solid red;
+}
+
+span {
+    border: 1px solid red;
+    text-align: center;
+
+}
+
+#Niles {
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    /* text-decoration: underline dotted; */
+    text-decoration: underline wavy;
+
+    /* text-transform: capitalize; */
+    /* text-transform:lowercase ; */
+    /* text-transform: uppercase; */
+    text-indent: ;
+
+
+}
+
+#color {
+    color: brown;
+    color: #0000ff;
+    color: rgb(189; 110; 110/);
+    /* color: rgba(255, 0, 72, 0.508); */
+
+    color: hsl(360, 100%, 50%);
+    color: hsla(360, 100%, 50%);
+    background-color: rgb(253,147, 147);
+}

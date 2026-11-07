@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box {
+    width: 300px;
+    height: 150px;
+    background-color: aquamarine;
+    transition-duration: 2s;
+    transition-property: all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    /* transition-delay: 2s; */
+    /* transition: all 5s linear  */
+    /* transform: translateX(100px);
+     transform: translateY(100px); */
+
+    /* transform: translate(100px,100px); */
+    /* transform: scaleY(2) */
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+    /* animation-name: mostakim; */
+    /* animation-name: fatima;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    position: absolute;
+    animation-fill-mode: both;
+    /* animation-iteration-count: infinite; */
+    animation: fatima 4s infinite alternate;
+
+}
+
+
+/* 
+@keyframes mostakim {
+    from {
+        background-color: red;
+
+    }
+
+    to {
+        background-color: green;
+    }
+} */
+
+@keyframes fatima {
+    0% {
+        background-color: rgb(0, 128, 55);
+        left: 0%;
+    }
+
+    25% {
+        background-color: palegoldenrod;
+        /* width: 1000px */
+    }
+
+    50% {
+        background-color: rebeccapurple;
+        /* right: 50% */
+    }
+
+    75% {
+        background-color: skyblue;
+        /* width: 500px; */
+    }
+
+    100% {
+        background-color: saddlebrown;
+        width: 700px;
+    }
+}
+
+
+
+
+
+.btn {
+    background-color: #2160ffc0;
+    padding: 20px 30px;
+    margin: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    animation: nitin 2s linear 0s infinite;
+}
+
+.btn:hover {
+    transform: translate(0, -5px) scale(1.1) rotate(-3deg);
+    transform: rotate(160deg);
+    box-shadow: 0px 10px 10px rgba(121, 121, 121, 0.312);
+}
